@@ -1,0 +1,15 @@
+.cabecalho {
+  display: block;
+  background-color: #41a2ef; }
+  .cabecalho h1 {
+    display: none; }
+
+.testemunho {
+  background-color: #gray-100;
+  padding-top: 90px;
+  padding-bottom: 100px; }
+
+.descricao {
+  background-color: #gray-100;
+  padding-top: 90px;
+  padding-bottom: 100px; }

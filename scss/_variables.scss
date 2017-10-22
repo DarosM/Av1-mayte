@@ -56,7 +56,7 @@ $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
 $gray-600: #868e96 !default;
 $gray-700: #495057 !default;
-$gray-800: #343a40 !default;
+$gray-800: #606060 !default;
 $gray-900: #212529 !default;
 $black:  #000 !default;
 
@@ -72,7 +72,7 @@ $grays: (
   900: $gray-900
 ) !default;
 
-$blue:    #007bff !default;
+$blue:    #41a2ef !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -91,7 +91,7 @@ $colors: (
   red: $red,
   orange: $orange,
   yellow: $yellow,
-  green: $green,
+  green: $36b57c,
   teal: $teal,
   cyan: $cyan,
   white: $white,
@@ -103,7 +103,7 @@ $theme-colors: (
   primary: $blue,
   secondary: $gray-600,
   success: $green,
-  info: $cyan,
+  info: $36b57c,
   warning: $yellow,
   danger: $red,
   light: $gray-100,
@@ -156,7 +156,7 @@ $sizes: (
 // Settings for the `<body>` element.
 
 $body-bg:       $white !default;
-$body-color:    $gray-900 !default;
+$body-color:    $gray-800 !default;
 
 // Links
 //

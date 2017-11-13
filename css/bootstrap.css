@@ -51,7 +51,7 @@
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -72,7 +72,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -233,7 +233,7 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family: "Raleway", sans-serif;
   font-size: inherit;
   line-height: inherit; }
 
@@ -363,7 +363,7 @@ h6, .h6 {
   line-height: 1.1; }
 
 .display-3 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: 300;
   line-height: 1.1; }
 
@@ -553,7 +553,23 @@ pre {
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  max-width: 100%; }
+  max-width: 100%; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+  .col-text {
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%; 
+  margin-top: 80px;
+  margin-bottom: 20px;
+  }
 
 .col-auto {
   -webkit-box-flex: 0;
@@ -562,6 +578,7 @@ pre {
   flex: 0 0 auto;
   width: auto;
   max-width: none; }
+
 
 .col-1 {
   -webkit-box-flex: 0;
@@ -1879,7 +1896,7 @@ fieldset[disabled] a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #41a2ef;
+  background-color: #47a2ef;
   border-color: #41a2ef; }
   .btn-primary:hover {
     color: #fff;
@@ -4143,7 +4160,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -4225,7 +4242,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -6948,9 +6965,11 @@ a.text-dark:focus, a.text-dark:hover {
 .cabecalho {
   background-color: #41a2ef;
   color: white;
-  display: block; }
+  display: block;
+  padding-bottom: 80px;
+   }
   .cabecalho h1 {
-    display: none;
+  
   }
 
 .testemunho {
